@@ -1,0 +1,368 @@
+body {
+    width: 100%;
+    margin: 0px;
+    background-color: #C8C8C8;
+    display: flex;
+}
+.body {
+    width: 1300px;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+}
+.listcontainer {
+    width: 15%;
+    align-items: stretch;
+    background-color:#4F4661;
+}
+.list{
+    margin-top: 33px;
+    position: fixed;
+}
+ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    flex-direction: column;
+    height: 65%;
+}
+.active {
+    color:#65FF2D;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+li a{
+    color: white;
+	background: linear-gradient(90deg,#26536A,#83C6D6,#003648,#65FF2D,#3892AC, #f441a5, #85A167);
+	background-size: 400%; 
+	border-radius: 13px;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0.5em;
+	padding: 0.5em;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+li a:hover{
+
+	animation: animate 8s linear infinite;
+	}
+	@keyframes animate {
+	0%{
+	background-position: 0%;
+	}
+	100%{
+	background-position: 400%;
+	}
+}
+
+.flexbody {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.flexheader {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    font-family: sans;
+    font-style: italic;
+    font-size: 24px;
+    color: #483A4B;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.formtitle {
+    background-color: #4F4661;
+    width: 99%;
+    height: 60px;
+    color: white;
+    font-family: monospace;
+    font-size: 32px;
+    border: solid 2px #4F4661;
+    padding: 5px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 150px;
+}
+.main {
+    width: 1042px;
+    margin-top: 10px;
+}
+.bottomcontainer {
+    display: flex;
+    flex-direction: column;
+}
+.subtitle {
+    width: 99%;
+    height: 60px;
+    background-color: #4F4661;
+    color: white;
+    font-family: monospace;
+    font-size: 32px;
+    border: solid 2px #4F4661;
+    padding: 5px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomcontainer img {
+    float: left;
+    width: 188px;
+    margin: 20px;
+}
+.events {
+    width: 100%;
+    margin-left: 20px;
+    text-align: justify;
+}
+h3 {
+    padding-right: 618px;
+}
+.august {
+    margin-left: 212px;
+    
+}
+.gameinfo{
+    width: 99%;
+    height: 60px;
+    background-color: #4F4661;
+    color: white;
+    font-family: monospace;
+    font-size: 32px;
+    border: solid 2px #4F4661;
+    padding: 5px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#gameday {
+    text-decoration: none;
+}
+.margin-bottom {
+    margin-bottom: 15px;
+    margin-left: 0px;
+    width: 987px;
+    height: 432px;
+    text-decoration: none;
+    width: 100%;
+    border: 2px solid #3B6D82;
+    background-color: #DFE6EA; 
+    
+}
+.margin-b {
+    margin-bottom: 15px;
+    margin-left: 0px;
+    width: 987px;
+    height: 432px;
+    text-decoration: none;
+    width: 100%;
+    border: 2px solid #3B6D82; 
+    background-color: #DFE6EA;
+}
+.table {
+    width: 100%;
+    border-spacing: 0px;
+    border-width: 0;
+    text-decoration: none;
+    display: table;
+    border-collapse: separate;
+    border-color: #3892AC;
+    width: 100%;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    width: 25%;
+    text-align: center;
+    font-size: 15px;
+ 
+}
+td:first-child {
+    padding-left: 30px;
+}
+td {
+    border-width: 0;
+    width: 25%;
+    text-align: justify;
+    display: table-cell;
+    vertical-align: inherit;
+    padding: 5px;
+}
+strong{
+    font-weight: bold;
+}
+.location {
+    width: 100%;
+    border: 2px solid #3B6D82;  
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+th {
+    text-decoration: underline;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.textrules h3 {
+    margin-top: 10px;
+
+}
+.infoselected {
+    list-style-type: square;
+}
+.areastyle {
+    background-color:#CADBF9;
+}
+.regformstyle {
+ 
+    background-color: #4F4661;
+    padding: 10px;
+    color: azure;
+    text-align: justify;
+}
+form {
+    height: 100%;
+}
+.halfwide {
+    width: 100%;
+    display: flex;
+}
+.halfwide >input {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+input {
+    background-color:#DFE6EA;
+}
+.fullwide {
+    width: 100%;
+    display: flex;
+}
+.bdate {
+    width: 250px;
+    margin-right: 20px;
+}
+.rank {
+    margin-left: 20px;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.fullwide input {
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.subfooter input {
+    font-size: 20px;
+    margin-top: 25px;
+    color: darkmagenta;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  
+}
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+.selectstyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+select {
+    width: 200px;
+    padding: 2px;
+    height: 30px;
+}
+.selectstyle select {
+    margin-left: 5px;
+    background-color: rgb(194, 193, 181);
+}
+.firstselect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.secondselect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.location td {
+    border-bottom: 2px solid #3B6D82;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.gameinfo {
+    width: 99%;
+    height: 60px;
+    background-color: #3B6D82;
+    color: white;
+    font-family: monospace;
+    font-size: 32px;
+    border: solid 2px #3B6D82;
+    padding: 5px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapstyle {
+    justify-content: center;
+}
+.flexlocation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #C8E6C9;
+}
+td:first-child {
+    padding-left: 30px;
+}
